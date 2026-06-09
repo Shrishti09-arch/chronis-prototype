@@ -1,0 +1,69 @@
+{
+  "user_profile": {
+    "name": "Alex Mercer",
+    "tracking_since": "May 01, 2026",
+    "overall_health_score": 78,
+    "confidence_rating": "High (91%)"
+  },
+  "dashboard_summary": {
+    "focus_status": "Cognitive Fatigue Warning",
+    "sleep_status": "Fragmented Architecture",
+    "stress_status": "Elevated Baseline"
+  },
+  "trends": [
+    { "date": "June 03", "screen_time": 210, "focus_score": 85, "stress_level": 40, "sleep_hours": 7.8 },
+    { "date": "June 04", "screen_time": 290, "focus_score": 78, "stress_level": 55, "sleep_hours": 6.5 },
+    { "date": "June 05", "screen_time": 340, "focus_score": 62, "stress_level": 70, "sleep_hours": 5.8 },
+    { "date": "June 06", "screen_time": 180, "focus_score": 80, "stress_level": 30, "sleep_hours": 8.0 },
+    { "date": "June 07", "screen_time": 410, "focus_score": 45, "stress_level": 85, "sleep_hours": 4.5 },
+    { "date": "June 08", "screen_time": 380, "focus_score": 55, "stress_level": 75, "sleep_hours": 5.2 }
+  ],
+  "insights": [
+    {
+      "id": "insight_01",
+      "title": "Late-Night Blue Light Exposure Delays REM Onset",
+      "category": "Circadian Rhythm",
+      "severity": "high",
+      "confidence": 94,
+      "summary": "Screen interaction extending past 11:30 PM consistently correlates with a 40-minute delay in deep sleep cycles.",
+      "evidence": "On June 5th and June 7th, high screen time (340m and 410m) directly preceded drops in next-day focus scores to 62 and 45.",
+      "missing_data_explanation": "None. Device hardware telemetry was 100% complete during these intervals."
+    },
+    {
+      "id": "insight_02",
+      "title": "Sub-optimal Context Switching Spike",
+      "category": "Cognitive Load",
+      "severity": "medium",
+      "confidence": 68,
+      "summary": "Rapid bouncing between applications indicates attention fragmentation during peak working hours.",
+      "evidence": "Micro-habits show continuous 30-second app alternation cycles between 2:00 PM and 4:30 PM on June 8th.",
+      "missing_data_explanation": "Low confidence score (68%) due to missing browser extension tracking data between 3:00 PM and 3:45 PM on Monday."
+    }
+  ],
+  "timeline": [
+    {
+      "period": "Week 1 (May 01 - May 07)",
+      "phase": "Baseline Assessment",
+      "description": "Established healthy routine. Average focus remained steady at 82 with normalized physical rest indicators.",
+      "status": "stable"
+    },
+    {
+      "period": "Week 2 (May 08 - May 15)",
+      "phase": "Initial Deviation Phase",
+      "description": "Gradual increase in screen-boundary extensions. Minor deep sleep disruptions began logging over midnight cycles.",
+      "status": "warning"
+    },
+    {
+      "period": "Week 3 (May 16 - May 23)",
+      "phase": "Compounded Fatigue Spike",
+      "description": "Sustained high cognitive loads coupled with early waking routines caused a visible crash in daily productivity metrics.",
+      "status": "critical"
+    },
+    {
+      "period": "Current State (June Baseline)",
+      "phase": "Fluctuating Recovery Phase",
+      "description": "Active attempt at boundary regulation. Weekend recovery is apparent, but weekday work windows show persistent volatile fatigue spikes.",
+      "status": "recovering"
+    }
+  ]
+}
