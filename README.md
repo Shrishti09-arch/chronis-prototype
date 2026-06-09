@@ -14,5 +14,5 @@ Follow these steps to run the interactive dashboard locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-github-repo-link-here>
+   git clone <https://github.com/Shrishti09-arch/chronis-prototype>
    cd chronis-prototype
